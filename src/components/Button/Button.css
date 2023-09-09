@@ -1,0 +1,15 @@
+.btn{
+    background-color:azure;
+    box-shadow: 0 0 2px 1px gray;
+    border-radius: 4px;
+    color:black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    
+}
+.btn:hover{
+    background-color: bisque;
+}

@@ -2,9 +2,18 @@ import "./Navbar.css";
 
 export default function Navbar() {
     return(
-        <div className="nav">
-            <h1>Navbar</h1>
-        </div>
+      <>
+      <div className="nav">Navbar
+       <span className="navlink">
+       Home 
+      About
+      Contact
+        </span>
+    
+       </div>
+     
+      </>  
+    
     )
   
 }
