@@ -6,12 +6,7 @@ export default function Contact() {
     return(
         <>
         <Navbar/>
-        <br/>
-        <div className="Container">
-            <h1>Contact Page</h1>
-        </div>
-        <br/>
-
+        
         <div className="Container1">
             <h2>Name: Sonali Gadekar</h2>
             <br/>

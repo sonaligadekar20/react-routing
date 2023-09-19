@@ -13,3 +13,18 @@
 .btn:hover{
     background-color: bisque;
 }
+.btn-product{
+    padding: 8px;
+    background-color:darkgray;
+    font-size: 20px;
+    border: none;
+    width: 60px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.btn-product1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

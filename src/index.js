@@ -1,5 +1,4 @@
 import ReactDOM from 'react-dom/client';
-
 import Home from "./view/Home/Home";
 import About from "./view/About/About";
 import Contact from "./view/Contact/Contact";
@@ -7,8 +6,8 @@ import Contact from "./view/Contact/Contact";
 function App() {
     const path = window.location.pathname;
 
-    switch (path) {
-        case "/":
+    switch (path) {   
+             case "/":
             return <Home />;
         case "/about":
             return <About />;
