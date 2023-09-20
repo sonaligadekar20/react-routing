@@ -1,9 +1,8 @@
 import "./ProductCard.css";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
 export default function ProductCard({ image, title }) {
   const [count, setCount] = useState(0);
-
 
   function increaseCount() {
     setCount(count + 1)
@@ -11,6 +10,10 @@ export default function ProductCard({ image, title }) {
   function decreaseCount() {
     setCount(count - 1)
   }
+  
+  useEffect(()=>{
+    console.log(`Count is ${count} now!`)
+  }, [count]) 
 
   return (
     <>
@@ -26,7 +29,8 @@ export default function ProductCard({ image, title }) {
         <div className="btn-product1">
           <button className="onclick-btn" onClick={increaseCount}>+</button>
           <span style={{ padding: '20px', fontWeight: 'bold' }}>{count}</span>
-          <button className="onclick-btn" onClick={decreaseCount}>_</button>
+          <button className="onclick-btn" onClick={decreaseCount}>-</button>
+          <button></button>
         </div>
         </div>
     </>
